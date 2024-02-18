@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <test thread-count="4" name="Test">
+        <groups>
+            <run>
+                <include name="smoke"> </include>
+                <include name="regression"> </include>
+            </run>
+        </groups>
+        <packages>
+            <package name="ceo.dog"/>
+        </packages>
+    </test>
+</suite>

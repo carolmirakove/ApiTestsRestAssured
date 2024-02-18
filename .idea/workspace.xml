@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="dd6e5a6d-81c1-4384-8374-d40a5a34ba5c" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="2cVYKx50kI6B5ySmzub75x2pMaz" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.App.executor": "Run",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG./Users/carolmirakove/code/ApiTestsRestAssured/src/test/testng.xml.executor": "Run",
+    "TestNG.DogApiTest.gherkinFilenameTest.executor": "Run",
+    "TestNG.DogApiTest.gherkinTest.executor": "Run",
+    "TestNG.DogApiTest.randomImageTest.executor": "Run",
+    "TestNG.DogApiTest.testAaaStatusCode.executor": "Run",
+    "TestNG.DogApiTest.testRandomImage.executor": "Run",
+    "TestNG.RandomImageTest.testStatusCode.executor": "Run",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "advanced.settings"
+  }
+}]]></component>
+  <component name="RunManager" selected="TestNG./Users/carolmirakove/code/ApiTestsRestAssured/src/test/testng.xml">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RandomImageTest.gherkinFilenameTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ApiTestsRestAssured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ceo.dog.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ceo.dog" />
+      <option name="MAIN_CLASS_NAME" value="ceo.dog.RandomImageTest" />
+      <option name="METHOD_NAME" value="gherkinFilenameTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RandomImageTest.testAaaStatusCode" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ApiTestsRestAssured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ceo.dog.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ceo.dog" />
+      <option name="MAIN_CLASS_NAME" value="ceo.dog.RandomImageTest" />
+      <option name="METHOD_NAME" value="testAaaStatusCode" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RandomImageTest.testRandomImage" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ApiTestsRestAssured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ceo.dog.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ceo.dog" />
+      <option name="MAIN_CLASS_NAME" value="ceo.dog.RandomImageTest" />
+      <option name="METHOD_NAME" value="testRandomImage" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RandomImageTest.testStatusCode" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ApiTestsRestAssured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ceo.dog.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ceo.dog" />
+      <option name="MAIN_CLASS_NAME" value="ceo.dog.RandomImageTest" />
+      <option name="METHOD_NAME" value="testStatusCode" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/carolmirakove/code/ApiTestsRestAssured/src/test/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ApiTestsRestAssured" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG./Users/carolmirakove/code/ApiTestsRestAssured/src/test/testng.xml" />
+        <item itemvalue="TestNG.RandomImageTest.testStatusCode" />
+        <item itemvalue="TestNG.RandomImageTest.testRandomImage" />
+        <item itemvalue="TestNG.RandomImageTest.testAaaStatusCode" />
+        <item itemvalue="TestNG.RandomImageTest.gherkinFilenameTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dd6e5a6d-81c1-4384-8374-d40a5a34ba5c" name="Changes" comment="" />
+      <created>1708198152985</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1708198152985</updated>
+    </task>
+    <servers />
+  </component>
+</project>
