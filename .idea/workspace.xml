@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd6e5a6d-81c1-4384-8374-d40a5a34ba5c" name="Changes" comment="" />
+    <list default="true" id="dd6e5a6d-81c1-4384-8374-d40a5a34ba5c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ceo/dog/RandomImageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ceo/dog/RandomImageTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,7 +50,7 @@
     "TestNG.DogApiTest.testAaaStatusCode.executor": "Run",
     "TestNG.DogApiTest.testRandomImage.executor": "Run",
     "TestNG.RandomImageTest.testStatusCode.executor": "Run",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
