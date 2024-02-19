@@ -1,21 +1,21 @@
 package ceo.dog;
 
+import ceo.dog.application.Endpoints;
+import ceo.dog.application.Urls;
 import org.testng.annotations.Test;
 
+import static ceo.dog.application.Urls.DOG_API;
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.*;
 
 public class RandomImageTest {
-
-    // TODO replace IMAGE_RANDOM constant with test environment constants for base urls and resource constants for API endpoints
-    public static final String IMAGE_RANDOM = "https://dog.ceo/api/breeds/image/random";
 
     // The Dog API project only accepts jpg files per https://github.com/jigsawpieces/dog-api-images/?tab=readme-ov-file#submission-guide
     @Test(groups ={"smoke", "regression"})
     public void testStatusCodeAndFileType() {
         given()
                 .when()
-                .get(IMAGE_RANDOM)
+                .get(Urls.DOG_API + Endpoints.RANDOM_IMAGE)
                 .then()
                 .statusCode(200)
                 .body("message", endsWith(".jpg"));
