@@ -10,7 +10,7 @@ import static org.hamcrest.Matchers.*;
 public class RandomImageTest {
 
     @Test(groups ={"smoke", "regression"})
-    public void testStatusCodeAndFileType() {
+    public void testStatusAndFileType() {
         given()
                 .when()
                 .get(Urls.DOG_API + Endpoints.RANDOM_IMAGE)
