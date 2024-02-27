@@ -4,7 +4,6 @@ import ceo.dog.application.Endpoints;
 import ceo.dog.application.Urls;
 import org.testng.annotations.Test;
 
-import static ceo.dog.application.Urls.DOG_API;
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.*;
 
