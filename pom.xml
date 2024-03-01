@@ -3,11 +3,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>ceo.dog</groupId>
-  <artifactId>ApiTestsRestAssured</artifactId>
+  <artifactId>ApiTestsRestAssuredExample</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>ApiTestsRestAssured</name>
+  <name>ApiTestsRestAssuredExample</name>
   <url>http://maven.apache.org</url>
 
   <properties>
