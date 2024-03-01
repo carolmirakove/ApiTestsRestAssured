@@ -1,4 +1,4 @@
-# ApiTestsRestAssured
+# ApiTestsRestAssuredExample
 
 ## About
 This repository contains example API tests developed with `RestAssured` for demo purposes.
