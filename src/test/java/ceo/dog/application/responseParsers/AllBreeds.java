@@ -25,7 +25,7 @@ public class AllBreeds {
     }
 
     public static String getBreedWithSubBreedsName() {
-        LinkedHashMap<String, ArrayList<String>> breeds = getBreedsAndSubBreeds();
+        HashMap<String, ArrayList<String>> breeds = getBreedsAndSubBreeds();
 
         for (Map.Entry<String, ArrayList<String>> breed : breeds.entrySet()) {
             String key = breed.getKey();
@@ -39,7 +39,7 @@ public class AllBreeds {
     }
 
     public static String getBreedWithoutSubBreedsName() {
-        LinkedHashMap<String, ArrayList<String>> breeds = getBreedsAndSubBreeds();
+        HashMap<String, ArrayList<String>> breeds = getBreedsAndSubBreeds();
 
         for (Map.Entry<String, ArrayList<String>> breed : breeds.entrySet()) {
             String key = breed.getKey();
@@ -53,17 +53,17 @@ public class AllBreeds {
     }
 
     private static Set<String> getBreedNames() {
-        LinkedHashMap<String, ArrayList<String>> message = getBreedsAndSubBreeds();
+        HashMap<String, ArrayList<String>> message = getBreedsAndSubBreeds();
 
         return message.keySet();
     }
 
-    private static LinkedHashMap<String, ArrayList<String>> getBreedsAndSubBreeds() {
+    private static HashMap<String, ArrayList<String>> getBreedsAndSubBreeds() {
         /* The response body message field contains a linked hash map of breeds (key)
         and their sub-breeds (values). Some api endpoints take a breed value as a param,
         e.g., list all sub-breeds for a given breed. The set returned here serves as a
         helper by which a method can obtain a single breed name to pass to an endpoint.*/
-        LinkedHashMap<String, ArrayList<String>> message;
+        HashMap<String, ArrayList<String>> message;
         message = given()
                 .when()
                 .get(Urls.DOG_API + Endpoints.ALL_BREEDS)
